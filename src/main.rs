@@ -1,7 +1,9 @@
+#[allow(dead_code)]
+fn main(){
+sun(456, 552)
+}
+fn sun(a:i128,b:i128){
+   let c= a-b;
+    println!("The value is {} ",c)
 
-    fn main(){
-        let pair = (1, true);
-        println!("Pair is {:?}", pair);
-    
-        println!("The reversed pair is {:?}", (pair));
-    }
+}
