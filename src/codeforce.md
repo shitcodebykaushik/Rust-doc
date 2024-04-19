@@ -22,7 +22,7 @@ fn main (){
 use std::io;
  fn main (){
     let mut data = String::new();
-     io::stdin().read_line (&mut data).unwrap(); // This need to be resolved ?
+     io::stdin().read_line (&mut data).unwrap(); // This need to be resolved ?w
      let a :i128 =data.trim().parse().unwrap();
 
      data.clear();
@@ -32,4 +32,23 @@ use std::io;
      let c =a+b;
      println!("{}",c);
  }
+```
+```Rust
+use std::io;
+
+fn main() {
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Failed to read line");
+
+    let mut iter = input.trim().split_whitespace();
+    let a: i32 = iter.next().expect("No value found").parse().expect("Failed to parse integer");
+    let b: i32 = iter.next().expect("No value found").parse().expect("Failed to parse integer");
+
+    // Your code here
+    if a+b+(a*b)==111 {
+        println!("Yes");
+        }else {
+            println!("NO")
+        }
+}
 ```
