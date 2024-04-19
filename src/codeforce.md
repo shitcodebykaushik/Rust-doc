@@ -17,3 +17,19 @@ fn main (){
     println!( "The value is {}",value);
 }
 ```
+# 2
+```Rust
+use std::io;
+ fn main (){
+    let mut data = String::new();
+     io::stdin().read_line (&mut data).unwrap(); // This need to be resolved ?
+     let a :i128 =data.trim().parse().unwrap();
+
+     data.clear();
+     io::stdin().read_line (&mut data).unwrap();
+     let b :i128 =data.trim().parse().unwrap();
+
+     let c =a+b;
+     println!("{}",c);
+ }
+```
