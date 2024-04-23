@@ -84,10 +84,13 @@ version = "0.1.0"
 dependencies = [
  "binary",
  "dict",
+ "etcommon-util",
  "graph",
  "heap",
+ "linked-list",
  "queues",
  "trees",
+ "util",
 ]
 
 [[package]]
@@ -150,6 +153,12 @@ name = "either"
 version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "11157ac094ffbdde99aa67b23417ebdd801842852b500e395a45a9c0aac03e4a"
+
+[[package]]
+name = "etcommon-util"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2e07dd5bcd3a7b9b5a1796e1d969cdebab0afb362ba7e534c6d9af6413af9648"
 
 [[package]]
 name = "fast-float"
@@ -255,6 +264,12 @@ checksum = "d921fea6860357575519aca014c6e22470585accdd543b370c404a8a72d0dd1d"
 dependencies = [
  "memchr",
 ]
+
+[[package]]
+name = "linked-list"
+version = "0.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a4dacf969043dc69f1f731b5042eb05e030d264bcf34f2242889fcbdc7a65f06"
 
 [[package]]
 name = "lock_api"
@@ -545,6 +560,12 @@ name = "unicode-ident"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b"
+
+[[package]]
+name = "util"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1883f788ebb25ad22fe882ea46046b57f481cac322ef7da7f52dc2fff51bed09"
 
 [[package]]
 name = "version_check"

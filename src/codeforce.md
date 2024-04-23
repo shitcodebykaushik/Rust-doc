@@ -53,7 +53,10 @@ fn main() {
 }
 ```
 
- 2.Search an element in an array
+ 2. Add two numbers
+
+  # 3. Find the longest substring without repeating the character .
+
 
 
 
