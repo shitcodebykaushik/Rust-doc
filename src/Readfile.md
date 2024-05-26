@@ -1,6 +1,6 @@
 # RUST is statically typed language
-# Method means the function associated with it.
-# Cargo 
+ - Method means the function associated with it.
+-  Cargo 
  - Cargo run compile your code and result in binary 
  - Cargo test test your code and result in test  binary .
  # Extern 
@@ -86,27 +86,6 @@ available for allocating other objects, is named “deallocation” of that obje
 
 - In mutablity it doesnt allocate the object ,it just modifies the value of an already allocated object.
 - The first assignment value to the varible is initilazation of the variable.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Panic 
 In rust it simply means that we are going to get the error during the runtime.
 # Overhead 
@@ -277,9 +256,6 @@ print!("y is {}",x);
 It is similiar to array but its size is not known at the compile time .
 Its two word objet, the first is known as pointer of the data ,the secod is known as the length ogf the slice .
 
-
- 
-
  ```Rust
  #[allow(unused_variables)] //This is so i dont get warning throughout the coding .
  `#[allow(dead_code)]` //is an attribute that disables the `dead_code` lint.
@@ -329,8 +305,6 @@ fn main(){
 }
 
 ```
-
-
 # Pointer
 In rust we have smart pointer which is like data structure and work similiarly like pointer .
 There are many smart pointer in rust std lib and all work is to allow you to have multiple owners by keepinf the tracks of the number of owner and when no owner remain,cleaing up the data .
@@ -390,10 +364,6 @@ fn sun(a:i128,b:i128){
      } 
         
      }
-    
- 
-
-    
 ```
 # Generic
  Generics refer to a feature that allows you to write code that can operate on different data types while maintaining type safety. Generics enable you to create reusable components (such as functions, structs, or enums) that can work with any data type.
@@ -420,11 +390,6 @@ fn main() {
 }
 
 ```
-
-
-
-
-
 # Traits
 Definig shared behaviour(means method) using traits.
 Traits allow us define set of method that are shared across different types 
@@ -480,11 +445,6 @@ fn main(){
   
 # Fearless concurrency 
 This need to be done after completing the rust by example.
-
-
- 
-
-
 # The Rust Standard Library 
  The Rust Standard Library, often referred to simply as "std," is a collection of essential APIs (Application Programming Interfaces) and utilities provided by the Rust programming language. It's included with every Rust distribution and forms a core part of the language ecosystem.
    # Array 
@@ -506,10 +466,6 @@ This need to be done after completing the rust by example.
  
      }
  ```
-
-
-
-
  # std::vec::Vec
   A contiguous growable  array type,written as Vec<T>,in short it is known as vector .
  `New` Vec::new() It is keyword which construct an empty vector and it will not allocate  until a new elemets are pushed inti it.
@@ -864,14 +820,7 @@ The amount of all nodes of a tree is returned bu `node_count()`.
  
 # Method 
 It is the function that is associated with the data types.
-# Red black tress 
-# Insertion in red black tress 
-# Disk Based Data structure 
-# Searching for pateerns 
-# Treis 
-# Data compression
-# Priority queses 
-# Binary Heaps 
+
  A binary heaps is a complete Binary Tree which is used to store data efficiently to get the max or min element based on its structure .
  A binart heap is either Min or max heap . In a Min Binary Heao,the key is at the root must be minium among all keys present in binary heap.The same property must be truee for alll nodes in binary tree.Max binary tree is simliar to MinHeap.
  # Representation Binary Heap 
@@ -915,16 +864,6 @@ It use the a Compressed Sparse-Row(CSR) data structure which is tailored for fas
 
 Adjacency" is a term commonly used in graph theory to describe the relationship between nodes or vertices in a graph.
 
-
-
-
-# Data structure for the Graps 
-# Depth First Search 
-# Application of DFS 
-# DFS in Directed Graphs
-# Application of the DFS ub Directed grapphs 
-# Minimun Spanning Trees
-# Disjoint Set
 Two sets are called disjoint sets if they don't have any element in the common,the intersection of sets is a null set.
  - Data structure used for the union are :-
   - Array: An array of integers is called Parent[]. If we are dealing with N items, i’th element of the array represents the i’th item
@@ -936,14 +875,6 @@ Two sets are called disjoint sets if they don't have any element in the common,t
 ## The union
 - We know that when we perform union operation on two sets, then the resultant set will contain all the elements that are present individually in each of the given sets. The union of sets that are disjoint is a little different from the usual union of sets.
 -  It takes two elements as inpust and find the representatives of their sets using the `Find` operations and puts either one the tress (representing the set ) under the root node of the other tree.
-- 
- 
-
-# Prims Algorithn for the minium spanning tress 
-# Single source shortes paths
-# Correctness of Dojkastras Algorithm 
-# Single Source shortest path 
-
 # Hash Map
  Hash map allows you to store items with identifiers.They are stored in table format with the identifier being hashed using hasing algorithm.
  It is more efficient to retrive items then search tress etc.
