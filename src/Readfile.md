@@ -880,5 +880,10 @@ Two sets are called disjoint sets if they don't have any element in the common,t
  It is more efficient to retrive items then search tress etc.
  Hashmap key and values are stored in a bucket to specifiy the entry,this entry location is determined using Hashcode function . This hashcode function determine hash where the value is stored.
 
-
-
+ # Using Cargo to build Oue first program .
+  - Cargo is use to declare the metadata of the project and build rust project.
+  -  Cargo init is for the starting the project 
+  - Cargo build is for the building the project 
+  -  Cargo test is for runnig the test and the benchmarks
+  -  Cargo search is for the searching the carates,third party-party lib' .
+  
