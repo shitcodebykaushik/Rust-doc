@@ -3,6 +3,7 @@
 -  Cargo 
  - Cargo run compile your code and result in binary 
  - Cargo test test your code and result in test  binary .
+ - Toolchain is use to automate the process of building,testing,and deploying software.
  # Extern 
 Link to or import external code.
  # Crate 
@@ -886,4 +887,6 @@ Two sets are called disjoint sets if they don't have any element in the common,t
   - Cargo build is for the building the project 
   -  Cargo test is for runnig the test and the benchmarks
   -  Cargo search is for the searching the carates,third party-party lib' .
+  - Unit testing is the silver bullets of out industry that can make all the differnec in keeping up high software quality .
+  
   
