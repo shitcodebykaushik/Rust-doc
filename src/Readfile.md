@@ -889,4 +889,7 @@ Two sets are called disjoint sets if they don't have any element in the common,t
   -  Cargo search is for the searching the carates,third party-party lib' .
   - Unit testing is the silver bullets of out industry that can make all the differnec in keeping up high software quality .
   
+  - In rust we use `TYPE` instead of typedef as the way to defines a new name for an existing type .
+  - Alias means alternative name given to the function,data type or other entites .
+  
   
