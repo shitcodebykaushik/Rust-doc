@@ -421,6 +421,8 @@ We destruct the tuple that is returned by the channel method and the TX HAS SEND
  push/pop/acces has 0(1).
  Constructor specifies initial size.
  # Struct 
+ This let you to group the multiple data type into the similiar group .
+ 
 
  # ENUMS 
  Enums are great alternative for the pre-processor constant .
