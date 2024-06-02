@@ -891,5 +891,7 @@ Two sets are called disjoint sets if they don't have any element in the common,t
   
   - In rust we use `TYPE` instead of typedef as the way to defines a new name for an existing type .
   - Alias means alternative name given to the function,data type or other entites .
-  
+  - When the varible goes out of the scope the rust call a special function by default called `drop`.
+  - String is made of the three parts `ptr length and the capacity`.
+  - 
   
