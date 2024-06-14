@@ -56,7 +56,6 @@ fn main () {
 }
 
 ```
-t
 
 ```Rust
 fn main () {
