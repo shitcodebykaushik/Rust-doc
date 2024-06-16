@@ -66,3 +66,20 @@ fn main () {
 }
 
 ```
+# Numbers 
+```Rust
+fn main () {
+    let   x: i32= 5;
+    let mut y: i32 = 59;
+    y =x;
+    println!("The value are {:?}",y);
+ 
+}
+```
+```Rust
+fn main () {
+    let v: u16 = 38_u8 as u16 ;
+    println!("Success")
+}
+
+```
