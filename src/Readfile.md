@@ -883,7 +883,7 @@ Two sets are called disjoint sets if they don't have any element in the common,t
  It is more efficient to retrive items then search tress etc.
  Hashmap key and values are stored in a bucket to specifiy the entry,this entry location is determined using Hashcode function . This hashcode function determine hash where the value is stored.
 
- # Using Cargo to build Oue first program .
+ # Using Cargo to build Our first program .
   - Cargo is use to declare the metadata of the project and build rust project.
   -  Cargo init is for the starting the project 
   - Cargo build is for the building the project 
@@ -895,5 +895,11 @@ Two sets are called disjoint sets if they don't have any element in the common,t
   - Alias means alternative name given to the function,data type or other entites .
   - When the varible goes out of the scope the rust call a special function by default called `drop`.
   - String is made of the three parts `ptr length and the capacity`.
-  - 
+
+# Threding
+ - It refers to the ability to create and manage concurrent threads of execution within a program.
+ - Threads are the lightweight units of execution that enable parralism and concurrency,allowing differents parts of a program to execute independently and simulataneously . 
+ - Concurrency means enabling the multiple threads can run at the same time and share system resource such as CPU time .
+ - They share memory space and the other resource with the other threads within the same process .'
+ - Parallesim in computing refers to the simulatneous .
   

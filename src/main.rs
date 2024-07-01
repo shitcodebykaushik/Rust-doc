@@ -1,14 +1,16 @@
-fn main (){
-    let bi : u8 = 45; // This is in stack 
-    let hi :Box<u8>= Box::new(bi); // This is in heap 
-    println!("THe value1 is {:?}",hi);
-    println!("THe value2 is {:?}",bi);
-   
-   let hi:Box<u8>=Box::new(45);
-   let hi: u8 = *hi;
-  
-   println!("THe value3 is {:?}",hi);
-  
-  
-  
-  }
+use std::thread;
+
+fn main() {
+    // Spawn two threads to run tasks in parallel
+    let thread1 = thread::spawn(|| {
+        println!("Task 1 running in parallel");
+    });
+
+    let thread2 = thread::spawn(|| {
+        println!("Task 2 running in parallel");
+    });
+    
+    // Wait for threads to complete (if necessary)
+    thread1.join().unwrap();
+    thread2.join().unwrap();
+}
