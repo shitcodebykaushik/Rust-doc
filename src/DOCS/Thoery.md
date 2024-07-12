@@ -10,7 +10,7 @@ Link to or import external code.
 A Rust binary or library.
 The primary use of the crate keyword is as a part of extern crate declarations, which are used to specify a dependency on a crate external to the one it's declared in. Crates are the fundamental compilation unit of Rust code, and can be seen as libraries or projects
  # Macros 
-
+ Fundamentally  macros are a way of writing code that writes oher code .which is known as metaprogramming. 
 # Shadow 
 Rust allow the shadow of varible which simply means we can use same name of varible twice.
 ```Rust
@@ -33,7 +33,8 @@ println!("The value is {}",v);
 
 # Heap 
 Is a region in computer that is used for dynamic  type of memory location  .In stack we have stactic memeory allocation where we  do memory allocation and deallocation .Which follow the concepet of Fifo. Dynamic memory refers to memory that is allocated at runtime, typically on the heap, rather than being statically allocated at compile time on the stack. Dynamic memory allocation allows programs to request memory as needed during execution, enabling flexibility in managing memory usage.
-
+- Heap doesn't grow from the other end line atack .
+- Heap is implemented at the cost of the complexity .
 In contrast to static memory allocation, where the size and lifetime of memory are determined at compile time, dynamic memory allocation enables the creation of data structures whose size or lifetime cannot be known in advance or may vary during program execution. 
 # Pointer 
 In rust pointer must always points to the some valid location there are no null references,Rust has optional pointer ,like option owned box, `Option<Box<T>>` `
