@@ -157,12 +157,11 @@ fn main(){
 To stop this loop we use ctrl+c keyword
 ```
 
-
 # RUST Ownership and Borrowing 
 Ownership is a set of rules that govern how a Rust program manages memory. All programs have to manage the way they use a computer’s memory while running. Some languages have garbage collection that regularly looks for no-longer-used memory as the program runs; in other languages, the programmer must explicitly allocate and free the memory. Rust uses a third approach: memory is managed through a system of ownership with a set of rules that the compiler checks. If any of the rules are violated, the program won’t compile. None of the features of ownership will slow down your program while it’s running.
 ## Rules of ownership
- [1] There is only owner at a time 
- [2] Each value in rust has owner
+ [1] There is only owner at a time. 
+ [2] Each value in rust has owner.
  [3]  When the owner goes out of the scope, the value will be dropped.
  # Here is the simple demostrtion
  ```Rust
