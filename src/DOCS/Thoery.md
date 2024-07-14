@@ -57,11 +57,8 @@ fn main (){
 
  println!("THe value3 is {:?}",hi);
 
-
-
 }
 ```
-
 `isize::MAX` therefore represents the maximum value that can be stored in the isize type on the current system architecture. It's often used when you need a variable that can hold any integer value within the range of the isize type.
 
 # Naming Object 
@@ -90,6 +87,7 @@ available for allocating other objects, is named “deallocation” of that obje
 - The first assignment value to the varible is initilazation of the variable.
 # Panic 
 In rust it simply means that we are going to get the error during the runtime.
+Runtime error are the more complex to solve .
 # Overhead 
 In computing, "overhead" refers to the additional resources, time, or processing required by a system or operation beyond what is strictly necessary to perform the desired task. Overhead can manifest in various forms, including:
 # Unsafe 
