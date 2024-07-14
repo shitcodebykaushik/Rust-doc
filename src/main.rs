@@ -1,6 +1,15 @@
-fn main ( ) {
-let sus:i32 = 34; // This data is in the stack let connvert this into the heap 
-println! ("{:?}",sus);
-let sus: Box<i32>= Box::new(34); // This is in the heap location where it store the data into the heap location and box is smart pinter here .
-println!("{:?}",sus);
-}
+fn main ()  {
+    // loop{
+        let x = Box::new(5);
+        if *x == 5 {
+            let y = 45;
+            let z = 10;
+            let x = 45;
+            let t = y+z+x;
+            if t==100 {
+            println!("The value is ok {t}")
+        }
+        println!("All test case has been passed ");
+            }
+    }
+//}

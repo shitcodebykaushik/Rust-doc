@@ -55,6 +55,4 @@ fn main () {
     println!("The value is not updated yet");
  };
 }
-
-
 ```
