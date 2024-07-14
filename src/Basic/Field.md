@@ -35,3 +35,26 @@ let d = *c; // Accessing the value through the pointer .
 println!( "The value is {:?}",d);
 }
 ```
+ # Tupel
+- This simple data structure store the different type of value in it .
+- The value is stored into the stack .
+```Rust
+fn main () {
+   let k = (1,2,3,4,'k',2.3);
+
+}
+```
+# Control flow 
+```Rust
+
+fn main () {
+ let x = Box::new("Apple");
+ if *x=="Apple" {   // This is use to check the program  but here we have use the * operator which is use to derefence the value and compare the Box stuff .
+    print!("This is apple");
+ }else {
+    println!("The value is not updated yet");
+ };
+}
+
+
+```
