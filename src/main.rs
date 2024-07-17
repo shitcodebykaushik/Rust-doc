@@ -1,5 +1,5 @@
 fn main ()  {
-    // loop{
+    loop{
         let x = Box::new(5);
         if *x == 5 {
             let y = 45;
@@ -12,4 +12,4 @@ fn main ()  {
         println!("All test case has been passed ");
             }
     }
-//}
+}
