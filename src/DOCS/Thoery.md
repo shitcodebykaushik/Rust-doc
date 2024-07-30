@@ -795,8 +795,6 @@ A tree data structure is defined as a collection of objects or entities known as
 It's a non linear data structure as it does not store data in a sequential manner, but stores in a hierarchical fashion.
 In the Tree data structure, the first node is known as a root node i.e. from which the tree originates. Each node contains some data and also contains references to child nodes. A root node can never have a parent node.
  A tree is recursive data strucuter that means it can call itself.
-
-
 #  Dictionaries 
 A dictionary is a collection of key-value pairs, where each key is unique. In Rust, dictionaries are implemented using the `HashMap` data structure. To use a `HashMap`, you first need to import it from the standard library
 
@@ -890,18 +888,12 @@ Two sets are called disjoint sets if they don't have any element in the common,t
   - Alias means alternative name given to the function,data type or other entites .
   - When the varible goes out of the scope the rust call a special function by default called `drop`.
   - String is made of the three parts `ptr length and the capacity`.
-
 # Threding
  - It refers to the ability to create and manage concurrent threads of execution within a program.
  - Threads are the lightweight units of execution that enable parralism and concurrency,allowing differents parts of a program to execute independently and simulataneously . 
  - Concurrency means enabling the multiple threads can run at the same time and share system resource such as CPU time .
  - They share memory space and the other resource with the other threads within the same process .'
  - Parallesim in computing refers to the simulatneous .
-  
-
-
-
-
   #  TYPES
 Signed means positive and negative both .
 Unsigned means only positive only .
@@ -1066,7 +1058,8 @@ fn main () {
 
 - In rust we dont have the concept of the class like other oops language have . But the same similirities can be achived with the same encapusalation .
 - The concept of the virtual struct  is orthogonal .
-- 
+-  Rust objects are bit smaller one as compare to other as they dont have the pointer  .
+
 
 
 

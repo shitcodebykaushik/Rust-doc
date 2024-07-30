@@ -1,10 +1,6 @@
-// main.rs
+use std::io;
+fn main () {
+    let mut name = String::new();
+    io::stdin().read_line(&mut name ).expect("Failed to read line ");
 
-mod book; // Declares the books module
-
-
-fn main() {
-    // Using functions from the modules
-    book::add_book("The Rust Programming Language");
-     // users::add_user("Alice");
 }
