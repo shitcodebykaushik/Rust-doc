@@ -5,7 +5,7 @@ fn main ()  {
             let y = 45;
             let z = 10;
             let x = 45;
-            let r = y+z+x;
+            let t = y+z+x;
             if t==100 {
             println!("The value is ok {t}")
         }
