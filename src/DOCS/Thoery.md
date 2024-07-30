@@ -1056,7 +1056,17 @@ fn main () {
 }
 
 ```
+# Class
+- The main goal of the class is to promote the code organization,maintainability ans resuability . By encapsulating data and behaviour and increases the security by hiding the details of information . And it helps to reuse the data and helps for scalability . 
+  - Encapsulation means the bundling of the data into the one .
+  - Inheritance  means that it can inherit the methods and data from the parents class .
+  - Polymorphism means that  it allow the same opertaion to behave differently on the different class .
+  - Modularity means that it can used to for isolating the different aspects of the system . It devide the system into the distinct modules each resposible for the specific aspect or functionality .
+  - Reusability refers to the resuse if the code .
 
+- In rust we dont have the concept of the class like other oops language have . But the same similirities can be achived with the same encapusalation .
+- The concept of the virtual struct  is orthogonal .
+- 
 
 
 
