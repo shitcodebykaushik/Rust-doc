@@ -1061,5 +1061,9 @@ fn main () {
 -  Rust objects are bit smaller one as compare to other as they dont have the pointer  .
 
 
+# Concurrency 
+- It is the way in the programming to where multiple task are executed during the overlappping periods of time,rather then sequentially .It is the way to make programm more efficient by allowing multiple operstions to process in the parallel or in an  interleaved manner . Concurrency doesnt means that task are running at the exact same time which would be the parallelism but rather that the task make the progress indepently .
+- 
+
 
 
