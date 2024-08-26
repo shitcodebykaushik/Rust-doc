@@ -1,4 +1,5 @@
 # RUST is statically typed language
+ - Rustup show this will show the current version detaiking of the rust ,
  - Method means the function associated with it.
 -  Cargo 
  - Cargo run compile your code and result in binary 
