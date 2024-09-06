@@ -6,4 +6,6 @@ fn main () {
     println!("THe value is {:?}",a);
     a= 45;
     println!("THe value is {:?}",a);
+    println!("Kaushik be ready for the things");
+    println! ("This is the hackthon things");
 }
