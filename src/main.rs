@@ -8,4 +8,5 @@ fn main () {
     println!("THe value is {:?}",a);
     println!("Kaushik be ready for the things");
     println! ("This is the hackthon things");
+    println!("On this day UI for the hackthon was done ");
 }
