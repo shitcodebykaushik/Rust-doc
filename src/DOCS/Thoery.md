@@ -890,9 +890,20 @@ Two sets are called disjoint sets if they don't have any element in the common,t
   - When the varible goes out of the scope the rust call a special function by default called `drop`.
   - String is made of the three parts `ptr length and the capacity`.
 # Threding
+ - All the programmer are familiar with the writing sequential programm. Where there is beginning an execution sequence and an end . At any given time during the runtime  of the program there is a single point of the execution .
+ - A thread is similiar to the sequential program described previously. A single thread also has  the beginning a sequence and an end at any given time during the runtime of the program there is a single point of the execution (only one instruction) .  Single thread can execute only one instruction at a time . Execution follows a linear path that is one instruction leads to another. It will not lead to the another one until the last instruction is executed . So here comes the `multi-thread` concept .
+ -  A single thread is single sequential flow of control within a program .
+ - The real excitement surrounding threads is not about a single sequential thread.Rather it about the use of the multi-thread running at the same time and performing different task in the a single programm . Some time we say thread as the lightweight process as it runs within the context of a full blown programm and take advantage of the resource allocated for that programm and the program's environment .
  - It refers to the ability to create and manage concurrent threads of execution within a program.
  - Threads are the lightweight units of execution that enable parralism and concurrency,allowing differents parts of a program to execute independently and simulataneously . 
+ - In concurrency  mode ther are one machine but one queues so machine can swtich from 1 to 2  and serve both  people alternatively .
  - Concurrency means enabling the multiple threads can run at the same time and share system resource such as CPU time .
+- Concurrency is the property of the program and the parallel execution is the property of the machine .
+- Concurrency is the property of the program.
+# Parallel programming 
+- Paralleism is the propert of the machine as it depends on the the 
+- In parallel execution there two machine serving two row simultaneously.
+- The hard part of the parallel execution is performance execution
  - They share memory space and the other resource with the other threads within the same process .'
  - Parallesim in computing refers to the simulatneous .
   #  TYPES
